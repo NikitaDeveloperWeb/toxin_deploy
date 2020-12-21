@@ -1,0 +1,10 @@
+{
+	"disallowClassLiteralsBeforeIdLiterals": true,
+	"disallowDuplicateAttributes": true,
+	"disallowMultipleLineBreaks": true,
+	"requireClassLiteralsBeforeAttributes": true,
+	"requireIdLiteralsBeforeAttributes": true,
+	"requireStrictEqualityOperators": true,
+	"validateDivTags": true,
+	"validateIndentation": 2
+}

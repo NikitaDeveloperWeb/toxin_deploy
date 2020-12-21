@@ -1,0 +1,78 @@
+@import 'font-awesome/font-awesome';
+
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../../fonts/montserrat/montserrat-regular.ttf') format('truetype');
+	src: local('☺'), url('../../fonts/montserrat/montserrat-regular.woff') format('woff'), url('../../fonts/montserrat/montserrat-regular.svg') format('svg');
+	font-weight: normal;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../../fonts/montserrat/montserrat-bold.ttf') format('truetype');
+	src: local('☺'), url('../../fonts/montserrat/montserrat-bold.woff') format('woff'), url('../../fonts/montserrat/montserrat-bold.svg') format('svg');
+	font-weight: bold;
+	font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  src: url('../../fonts/quicksand/quicksand-bold.ttf') format('truetype');
+  src: local('☺'), url('../../fonts/quicksand/quicksand-bold.woff') format('woff'), url('../../fonts/quicksand/quicksand-bold.svg') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  src: url('../../fonts/quicksand/quicksand-regular.ttf') format('truetype');
+  src: local('☺'), url('../../fonts/quicksand/quicksand-regular.woff') format('woff'), url('../../fonts/quicksand/quicksand-regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../../fonts/opensans/opensans-bold.ttf') format('truetype');
+  src: local('☺'), url('../../fonts/opensans/opensans-bold.woff2') format('woff');
+  src: local('☺'), url('../../fonts/opensans/opensans-bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'Font Awesome 5 Brands';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url('../../fonts/font-awesome/fa-brands-400.eot');
+  src: url('../../fonts/font-awesome/fa-brands-400.eot?#iefix') format('embedded-opentype'),
+  url('../../fonts/font-awesome/fa-brands-400.woff2') format('woff2'),
+  url('../../fonts/font-awesome/fa-brands-400.woff') format('woff'),
+  url('../../fonts/font-awesome/fa-brands-400.ttf') format('truetype'),
+  url('../../fonts/font-awesome/fa-brands-400.svg#fontawesome') format('svg');
+}
+
+$font-primary: 'Montserrat', Arial, serif;
+$font-secondary: 'Quicksand', 'Open Sans', Arial, serif;
+
+$text-base-size: 14px;
+$text-xs: 0.714rem; // 10px;
+$text-sm: 0.8571rem; // 12px
+$text-md: 1.357rem; // 19px
+$text-lg: 1.714rem; // 24px
+
+
+.fab {
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+}
+
+
