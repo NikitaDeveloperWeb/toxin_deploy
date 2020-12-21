@@ -16,14 +16,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chrisryana/toxin.git"
+    "url": "https://github.com/NikitaDeveloperWeb/toxin_deploy"
   },
-  "author": "https://github.com/chrisryana",
+  "author": "Nikita Rusakov <rusakdeveloper@gmail.com>",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/chrisryana/toxin/issues"
-  },
-  "homepage": "https://github.com/chrisryana/toxin#readme",
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@babel/preset-env": "^7.6.3",
